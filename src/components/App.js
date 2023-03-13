@@ -11,24 +11,26 @@ function App() {
 
   const cards = Data.map((item) => {
     return <Card 
-    coverImg={item.coverImg} 
-    star={item.stats.star} 
-    stats={item.stats.rating} 
-    review={item.stats.reviewCount} 
-    location={item.location} 
-    title={item.title} 
-    price={item.price} />
+    key={item.key}
+    item={item} //i can also use this to {...item} to spread the objects
+   
+   />
   })
 
   return (
     <div>
 
       <Navbar />
-      <Hero />
-      <section className="cards-list">
-      {cards}
-      </section>
-    
+      <div  className="container">
+
+        <Hero />
+        <section className="cards-list">
+        {cards}
+        </section>
+      
+
+      </div>
+ 
   
    
     </div>
