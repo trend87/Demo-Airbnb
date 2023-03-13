@@ -6,8 +6,11 @@
 
 body{
   font-family: 'Poppins', sans-serif;
+
+}
+
+.container{
   padding: 0 30px;
-  
 }
 .navbar{
   display: flex;
@@ -82,5 +85,13 @@ body{
   margin-top: auto;
 }
 
+@media screen and (max-width: 600px)  {
 
+  .image-grid{
+  
+    width: 100%;
+    
+  }
+  
+}
 
