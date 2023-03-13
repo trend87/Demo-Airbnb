@@ -6,6 +6,7 @@ export default [
         price: 136,
         coverImg: "katie-zaferes.png",
         stats: {
+            star:"star.png",
             rating: 5.0,
             reviewCount: 6
         },
@@ -19,6 +20,7 @@ export default [
         price: 125,
         coverImg: "wedding-photography.png",
         stats: {
+            star:"star.png",
             rating: 5.0,
             reviewCount: 30
         },
@@ -32,6 +34,7 @@ export default [
         price: 50,
         coverImg: "mountain-bike.png",
         stats: {
+            star:"star.png",
             rating: 4.8,
             reviewCount: 2
         },
