@@ -37,6 +37,15 @@ body{
   
 }
 
+.cards-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+
 .card-container{
   width: 175px;
   font-size: 12px;
@@ -46,42 +55,32 @@ body{
  
 }
 
-.card-box span{
-  display: block;
-}
 
-.card-box p b {
-font-weight: bold;
-}
-
-.card-img{
-  background-size: cover;
-}
-
-
-.card--image {
+.card-img {
   width: 100%;
   border-radius: 9px;
   margin-bottom: 9px;
 }
 
 
-.card--title {
+.card-title {
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.card--stats {
+.card-stats {
   display: flex;
   align-items: center;
 }
 
-.card--star {
+.card-star {
   height: 14px;
 }
 
 
-.card--price {
+.card-price {
   margin-top: auto;
 }
+
+
 
